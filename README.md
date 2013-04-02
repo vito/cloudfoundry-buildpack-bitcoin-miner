@@ -1,0 +1,2 @@
+cloudfoundry-buildpack-bitcoin-miner
+====================================

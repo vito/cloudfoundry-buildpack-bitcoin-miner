@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CACHE=$1
+CACHE=$2
 
 mkdir -p $CACHE
 echo $CACHE

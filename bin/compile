@@ -1,4 +1,6 @@
 #!/bin/sh
 
-exec sleep 1000
-echo CHA-CHING
+CACHE=$1
+
+mkdir -p $CACHE
+echo sup >> $CACHE/foo

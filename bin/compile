@@ -3,4 +3,8 @@
 CACHE=$1
 
 mkdir -p $CACHE
+echo $CACHE
+echo Echoing sup to $CACHE
+
 echo sup >> $CACHE/foo
+echo Echoed

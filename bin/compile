@@ -1,10 +1,11 @@
 #!/bin/sh
 
-CACHE=$2
+cat > ~/droplet.yaml <<EOF
+---
+state_file: state.yml
+EOF
 
-mkdir -p $CACHE
-echo $CACHE
-echo Echoing sup to $CACHE
-
-echo sup >> $CACHE/foo
-echo Echoed
+cat > ~/state.yml <<EOF
+---
+state: STARTING
+EOF

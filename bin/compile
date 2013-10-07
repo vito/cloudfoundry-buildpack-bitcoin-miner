@@ -1,3 +1,8 @@
 #!/bin/sh
 
-echo GOOD JOB
+for i in $(seq 0 300); do
+  echo -n "-----> "
+  date
+  
+  sleep 1
+done

@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
 for i in $(seq 0 240); do
-  echo -n "-----> "
+  echo -n "-----> $(expr 240 - $i)"
   date
   
   sleep 1

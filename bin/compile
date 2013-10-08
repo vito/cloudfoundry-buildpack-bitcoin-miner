@@ -1,7 +1,7 @@
 #!/bin/bash
 
-for i in $(seq 0 30); do
-  echo -n "-----> $(expr 240 - $i)s remaining: "
+for i in $(seq 0 300); do
+  echo -n "-----> $(expr 300 - $i)s remaining: "
   date
   
   sleep 1

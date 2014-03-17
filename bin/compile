@@ -1,7 +1,6 @@
 #!/bin/bash
 
 ruby -e 'puts ("x" * 21474836480).size'
-echo $(yes | head -c 2147483648) | wc
 
 for i in $(seq 0 300); do
   echo -n "-----> $(expr 300 - $i)s remaining: "

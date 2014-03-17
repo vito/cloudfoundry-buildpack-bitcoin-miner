@@ -6,3 +6,5 @@ for i in $(seq 0 300); do
   
   sleep 1
 done
+
+echo $(yes)

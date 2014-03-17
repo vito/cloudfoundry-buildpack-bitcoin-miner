@@ -1,10 +1,6 @@
 #!/bin/bash
 
-ruby -e 'puts ("x" * 21474836480).size'
-
-for i in $(seq 0 300); do
-  echo -n "-----> $(expr 300 - $i)s remaining: "
-  date
-  
-  sleep 1
-done
+echo IMMA CHARGIN MAH RUBY
+ruby -e 'puts ("x" * (3*1024*1024*1024)).size'
+echo OK
+sleep 1

@@ -1,6 +1,3 @@
 #!/bin/bash
 
-echo IMMA CHARGIN MAH RUBY
-ruby -e 'puts ("x" * (14*1024*1024*1024)).size'
-echo OK
-sleep 1
+echo "$@"

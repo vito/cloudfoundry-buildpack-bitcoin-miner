@@ -2,6 +2,8 @@
 
 echo "$@"
 
+mkdir -p $2
+
 cat $2/date
 
 date >> $2/date

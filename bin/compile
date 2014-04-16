@@ -11,3 +11,8 @@ cat $2/date
 date >> $2/date
 
 curl -vvv http://10.10.16.19:4001/v2/keys/?recursive=true
+
+for i in $(seq 60); do
+  echo $i
+  sleep 1
+done
